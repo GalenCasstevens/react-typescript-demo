@@ -1,11 +1,12 @@
+import React from 'react';
 import ListGroup from 'react-bootstrap/ListGroup';
+import { IIdeaList } from '../interfaces/ideaList.interface';
 
-const IdeaList = () => {
-	const ideas = [{ text: 'Create that cool idea list app' }];
+const IdeaList = ({ ideas }: IIdeaList) => {
 	return (
 		<>
-			{ideas.map((idea, index) => (
-				<ListGroup.Item key={index}>{idea.text}</ListGroup.Item>
+			{ideas.map((idea) => (
+				<ListGroup.Item key={idea.id}>{idea.text}</ListGroup.Item>
 			))}
 		</>
 	);

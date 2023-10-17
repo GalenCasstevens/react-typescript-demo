@@ -4,7 +4,7 @@ html {
 
 body {
 	margin: 0;
-	background-color: #fb94ff;
+	background-color: #f6ff00;
 }
 
 div.container {
@@ -16,7 +16,8 @@ div.container {
 }
 
 .list-group-item {
-	background-color: #bdffc2;
+	background-color: #000;
+	color: #fff;
 	font-weight: 600;
 	font-family: Roboto;
 	font-size: 1.3em;
